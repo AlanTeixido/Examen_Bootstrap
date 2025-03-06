@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TecnoBloc - Inici</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">TecnoBloc</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Inici</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#articles">Articles</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacte">Contacte</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="text-white py-5" style="background-image: url('./img/fondo1.jpg'); background-size: cover;">
+        <div class="container text-center">
+            <h1 class="display-4">Benvingut al TecnoBloc</h1>
+            <p class="lead">La teva font de notícies i articles tecnològics</p>
+            <a href="#articles" class="btn btn-primary btn-lg mt-3">Veure Articles</a>
+        </div>
+    </header>
+
+    <!-- Secció Articles -->
+    <section id="articles" class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/IA.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Innovació en IA</h5>
+                        <p class="card-text">Descobreix les últimes tendències en Intel·ligència Artificial.</p>
+                        <a href="#" class="btn btn-primary">Llegir més</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/Tecnologia_Salut.jpeg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Tecnologia i Salut</h5>
+                        <p class="card-text">Com la tecnologia millora la qualitat de vida.</p>
+                        <a href="#" class="btn btn-primary">Llegir més</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/Blockchain.jpeg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Blockchain</h5>
+                        <p class="card-text">Explorant la revolució del Blockchain.</p>
+                        <a href="#" class="btn btn-primary">Llegir més</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/Realitat Virtual.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Realitat Virtual</h5>
+                        <p class="card-text">Submergeix-te en noves experiències virtuals.</p>
+                        <a href="#" class="btn btn-primary">Llegir més</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/ciberseguretat.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ciberseguretat</h5>
+                        <p class="card-text">Protegeix-te dels atacs cibernètics.</p>
+                        <a href="#" class="btn btn-primary">Llegir més</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/Internet de les Coses.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Internet de les Coses</h5>
+                        <p class="card-text">La connexió intel·ligent entre dispositius.</p>
+                        <a href="#" class="btn btn-primary">Llegir més</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Barra de Progres -->
+        <div class="progress my-5">
+            <div class="progress-bar" style="width: 70%;">70% llegit</div>
+        </div>
+    </section>
+
+    <!-- Formulari Contacte -->
+    <section id="contacte" class="container my-5">
+        <h2>Contacta amb nosaltres</h2>
+        <form>
+            <input type="text" class="form-control mb-3" placeholder="Nom">
+            <input type="email" class="form-control mb-3" placeholder="Correu electrònic">
+            <textarea class="form-control mb-3" rows="4" placeholder="Missatge"></textarea>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Component Extra (Alert) -->
+    <div class="container my-4">
+        <div class="alert alert-info text-center">Perque no et subscrius i aixi pots veure-ho tot? ENDEVANT!</div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>© 2025 TecnoBloc | AlanTeixido | Examen BootStrap Disseny Susana</p>
+            <a href="#" class="mx-2 text-white"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="mx-2 text-white"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="mx-2 text-white"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="mx-2 text-white"><i class="bi bi-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
